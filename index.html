@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ffb5834077.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>PORTFOLIO</title>
+</head>
+
+<body>
+    <nav>
+        <img src="img/akbar3.png" class="logo">
+        <ul id="sidemenu" class="slide">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICE</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="closemenu()"></i>
+    </nav>
+
+    <div class="header">
+        <div class="container">
+            <div class="header-text">
+                <p>JUNIOR PROGRAMMER</p>
+                <h1>Hi, I'm <span>Muhammad Akbar Fauzan Susetyo</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/akbar.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Graduated from SMK Wikrama Bogor majoring in Software Engineering. Enjoys learning in detail and
+                        has a desire to work in the field of Front End Developer and Flutter Mobile Developer. Have
+                        internship experience as Web Developer and Mobile Developer. Have the commitment and motivation
+                        to work independently professionally, skilled in teamwork, supported by good time management.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End Developer</span><br />
+                                Build an application UI with a programming language that must be used.</li>
+                            <li><span>Flutter Mobile Developer</span><br />Develop mobile applications using Flutter
+                            </li>
+                            <li><span>Web Development</span><br />Designing App Interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <span>Jul 2022 - Dec 2022</span><br />
+                            <h4>Web Developer (Field Work Practice)</h4>
+                            <li>- Creating CRUD for E-commerce applications</li>
+                            <li>- Create Admin, User & Login Views for E-commerce applications</li>
+                            <li>- Create and manage Databases for E-commerce applications</li>
+                            <span>Jul 2022 - Dec 2022</span><br>
+                            <h4>Flutter Mobile Developer (Field Work Practice)</h4>
+                            <li>- Creating Android Views for E-commerce applications</li>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2023</span><br>SMK WIKRAMA BOGOR</li>
+                            <li><span>2017 - 2020</span><br />SMPN 1 CARINGIN</li>
+                            <li><span>2011 - 2017</span><br />SDN 1 CARINGIN</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">
+                My Service
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quam
+                            voluptates autem sapiente fugiat. Blanditiis porro in natus consequatur
+                            temporibus.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-mobile"></i>
+                        <h2>Mobile Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam qui et eligendi
+                            nesciunt minima in expedita soluta tenetur autem iusto.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam qui et eligendi
+                            nesciunt minima in expedita soluta tenetur autem iusto.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">
+                My Work
+                <div class="work-list">
+                    <div class="work">
+                        <img src="img/ecommerce.png" alt="work-1">
+                        <div class="layer">
+                            <h3>E-COMMERCE</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ratione
+                                perferendis itaque a quod impedit magni ab veniam temporibus. Delectus.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/moez.png" alt="work-2">
+                        <div class="layer">
+                            <h3>MOEZMARKET</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ratione
+                                perferendis itaque a quod impedit magni ab veniam temporibus. Delectus.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="img/template.png" alt="work-3">
+                        <div class="layer">
+                            <h3>TEMPLATE SIGNANE</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ratione
+                                perferendis itaque a quod impedit magni ab veniam temporibus. Delectus.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p class="email"><i class="fa-solid fa-envelope"> makbarfauzans@gmail.com</i></p>
+                    <p class=" phone"><i class="fa fa-phone-square"> 08CARISENDIRI</i></p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/muhammad.a.fauzan.33"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/akbarfauzannnnn"><i class="fa fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/akbarrfauzannn/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/m-akbar-fauzan-susetyo-50697b260/"><i
+                                class="fa fa-linkedin-square"></i>
+                        </a>
+                        <a href="https://open.spotify.com/user/ee259x9mpd32gacq63x47jtq3?si=464508a82afd498a"><i
+                                class="fa-brands fa-spotify"></i></a>
+
+                    </div>
+                    <a href="img/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class=" contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="Eeail" placeholder="Your Email" required />
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; 2023, Made with <i class="fa-solid fa-heart fa-sm"></i> by Akbar</p>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

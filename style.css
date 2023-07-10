@@ -164,8 +164,16 @@ nav ul li a:hover::after {
     margin: 10px 0;
 }
 
+.tab-contents ul li h5 {
+    color: #ffffff;
+}
+
 .tab-contents {
     display: none;
+}
+
+.tab-contents ul h3 {
+    color: #f4ebdb;
 }
 
 .tab-contents.active-tab {

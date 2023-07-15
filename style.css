@@ -411,6 +411,10 @@ nav .fa-solid {
     font-size: 20px;
 }
 
+.layer p {
+    font-size: 8px;
+}
+
 @media only screen and (max-width: 768px) {
     .header-text {
         /* margin-top: 100%; */
